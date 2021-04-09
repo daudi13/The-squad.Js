@@ -12,3 +12,26 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+#info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#info div {
+    margin: 0.5rem;
+    width: 12rem;
+    padding: 20px;
+    background: teal;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    opacity: 0.9;
+    transition: all 0.3s ease;
+}
+
+#info div:hover {
+    opacity: 1;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,0.25), 0.125em 0.125em 0.125em rgba(0, 0, 0, 0.15);
+}
